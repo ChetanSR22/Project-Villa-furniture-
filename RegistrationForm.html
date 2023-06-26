@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+             <!-- Css linking -->
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    
+    <div class="Bg_img">
+        <img src="C:\xampp\htdocs\Project\Img_file\Registration img.jpg">
+    <div class="Registration">
+        <div class="wellcome">
+        
+</div>
+    <div class="information">
+        <h1> Register Now</h1>
+        <form action="signup.php" method="POST">
+
+            <div class="io">
+            <label> First Name </label> 
+                <input class="Cmm" type="text" name="first" placeholder="First Name" required> 
+            </div> 
+
+                <div class="io">
+            <label>Last Name</label> 
+                <input class="Cmm" type="text"  name="lastname" placeholder="Last Name" required> 
+            </div>
+
+                <div class="io">
+            <label>Phone No. </label> 
+                <input class="Cmm" type="text" name="phonenum" placeholder="Phone" required> 
+            </div>
+
+                <div class="io">
+            <label>Date of Birth </label> 
+                <input class="Cmm" type="date" required> 
+            </div>
+
+            <div class="add">
+            <label>Address</label>
+                <input class="Address" type="text" id="add" name="add" required > 
+            </div> 
+
+            <div class="io">
+            <label>Email Id</label>
+            <input class="Cmm" type="Email" name="email" required> 
+            </div>
+
+            <div class="io">
+            <label>Create Password</label>
+            <input class="Cmm" type="password" name="pass" required>
+            </div>
+
+            <div class="io">
+            <label>Confirm Password</label>
+            <input class="Cmm" type="password" name="pass1" required>  
+            </div>
+
+            
+            <div class="">
+            <input type="submit" name="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    </div>
+</div>
+</body>
+</html>
